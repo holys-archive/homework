@@ -1,0 +1,3 @@
+$('#storyjs').css({
+"position": "absolute"
+})

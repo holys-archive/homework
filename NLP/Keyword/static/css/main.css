@@ -1,0 +1,101 @@
+body {
+
+}
+
+ul, li {
+  list-style: none;
+}
+
+.main {
+    margin-top: 1em;
+}
+
+.container {
+    max-width: 980px;
+}
+
+.generation {
+  text-align: center;
+}
+
+.intenal-error {
+  text-align: center;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.p-not-found{
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.timeline {
+//    position: absolute;
+}
+
+.treemap {
+    position: relative;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+    color: #999;
+    font-size: .8em;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+
+.btn-mini {
+  margin-top: 2em;
+}
+
+/* Rounded avatars */
+.avatar {
+  /*float: left;
+  margin-top: 1em;
+  margin-left: 1em;*/
+  position: relative;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+.item .name{
+  margin-top: 1em;
+}
+
+.alert{
+  margin-left: -.5em;
+  margin-right: 1.5em;
+}
+
+.overview{
+  margin-left: -0.09em;
+  margin-right: 1.2em;
+}
+
+.cover img{
+  width: 70px;
+  height: 100px;
+}
+
+.form-search{
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}

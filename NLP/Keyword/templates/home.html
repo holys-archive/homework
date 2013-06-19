@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block subtitle %}{{ username }}的关键词{% endblock %}
+
+{% block body %}
+
+<h3>{{ username }}的图书关键词</h3>
+{% include "treemap.html" %}
+{% endblock %}
