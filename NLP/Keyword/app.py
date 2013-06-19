@@ -14,8 +14,8 @@ L_USERNAME = 'your api username'
 L_PASSWORD = 'your api password'
 
 app = Flask(__name__)
-#app.config.from_pyfile('config.py')
-app.config.from_object(__name__)
+app.config.from_pyfile('config.py')
+#app.config.from_object(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'])
